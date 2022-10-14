@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+<title>Tech News</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="stylesheettx.css"><!--Use to locate external CSS-->
+<meta name="descryption" content="Information about software and hardware">
+<meta name="keywords" content="Software, Hardware">
+<meta name="author" content="Me">
+</head>
+<script>
+function ResFunction(){
+		/*Alternating between two classes*/
+	var x = document.getElementById("Topnav");
+	if(x.className === "topnav"){
+	x.className += "responsive";
+	}
+	else {
+		x.className = "topnav";
+		}
+}
+	function Cookies() {
+	alert("Warning, Cookies operate on this website");
+}
+</script>
+<body onload= "Cookies()"><!-- Calls alertbox function-->
+<div class="mainbodydiv">
+	<div class="headerdiv"><!--Opens the navigation bar div-->
+		
+		<div class="centerdiv">
+			<h1>Tech News</h1>
+		</div>
+		<div class="topnav" id="Topnav">
+			<a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="ResFunction()">&#9776;</a>
+			<a href="Assignmenttechnews1.html">Home</a><!--Creates a hyperlink to another file-->
+			<a href="Assignmenttechnews2.html">Software</a><!--Creates a hyperlink to another file-->
+			<a href="Assignmenttechnews3.html">Hardware</a><!--Creates a hyperlink to another file-->
+			<a href="Assignmenttechnews4.html">Contact</a><!--Creates a hyperlink to another file-->
+			<a href="Assignmenttechnews5.html">Cookie Policy</a><!--Creates a hyperlink to another file-->
+		
+		</div>
+	</div>
+
+<section class="white">
+<div class="farrightdiv">
+	<h2 class="hcenter">#1 Software of the month</h2><br>
+<div class="card">
+  <h1>Krita</h1>
+  <img src="Images/Krita logo.png" alt="Krita Logo" style="width:100%">
+  <p class="price">Free</p>
+  <p>Drawing Software</p>
+  <p><button onlclick="">Go to Website</button></p>
+</div> 
+</div>
+<div class="mainleftdiv">
+<h2> Latest Website News</h2><br>
+<p class="centerpar"> Hey there!<br>
+We have some good news for you. Our website is getting a revamp so bare with us<br>
+while our web developers finish builing this website to be more user friendly!<br>
+<br>
+Enjoy browsing the software & hardware avaliable<br>
+<br>
+<br>
+ - The Tech News Team.</p>
+  </div>
+
+
+<div class="footerdiv">
+		<p> Copyright Tech News 2020</p>
+		<br>
+	</div>
+
+
+
+
+
+
+</section> <!--Closes Section-->
+
+
+
+</div>
+
+</body>
+</html>

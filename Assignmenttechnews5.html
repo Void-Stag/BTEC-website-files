@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+<title>Tech News</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="stylesheettx.css"><!--Use to locate external CSS-->
+<meta name="descryption" content="Information about software and hardware">
+<meta name="keywords" content="Software, Hardware">
+<meta name="author" content="Me">
+</head>
+<script>
+/*Responsive Navbar*/
+function ResFunction(){
+		/*Alternating between two classes*/
+	var x = document.getElementById("Topnav");
+	if(x.className === "topnav"){
+	x.className += "responsive";
+	}
+	else {
+		x.className = "topnav";
+		}
+}
+/*Responsive Navbar*/
+/*Message alert*/
+	function Cookies() {
+	/*Popup window occurs when run*/
+	alert("Warning, Cookies operate on this website");
+	
+}
+/*Message alert*/
+/*Cookie Policy Display*/
+function fhide() {
+	/*erases the text inside of "myparagraph"*/
+	document.getElementById("myparagraph").style.display = "none";
+	document.getElementById("myparagraph").innerHTML = "disapper";
+	document.body.style.background = "white";
+}
+function fshow() {
+	/*specifications of text properties inside of "myparagraph" and displays text in "myparagraph"*/
+	document.getElementById("myparagraph").style.display = "block";
+	document.getElementById("myparagraph").style.color = "Navy";
+	document.getElementById("myparagraph").style.fontSize = "20px";
+	document.getElementById("myparagraph").style.fontFamily = "Calibri";
+
+	document.getElementById("myparagraph").innerHTML = "This website steals your freshly oven-baked cookies..<br> Replaces the chocolate chip cookies with raisin ones..<br> Then runs away..  ";
+}
+/*Cookie Policy Display*/
+</script>
+<body onload= "Cookies()"><!-- Calls alertbox function-->
+<div class="mainbodydiv">
+	<div class="headerdiv"><!--Opens the navigation bar div-->
+		
+		<div class="centerdiv">
+			<h1>Cookie Policy</h1>
+		</div>
+		<div class="topnav" id="Topnav"><!-- Opens Div & Calls navigation bar function-->
+			<a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="ResFunction()">&#9776;</a>
+			<a href="Assignmenttechnews1.html">Home</a><!--Creates a hyperlink to another file-->
+			<a href="Assignmenttechnews2.html">Software</a><!--Creates a hyperlink to another file-->
+			<a href="Assignmenttechnews3.html">Hardware</a><!--Creates a hyperlink to another file-->
+			<a href="Assignmenttechnews4.html">Contact</a><!--Creates a hyperlink to another file-->
+			<a href="Assignmenttechnews5.html">Cookie Policy</a><!--Creates a hyperlink to another file-->
+		
+		</div>
+	</div>
+
+<section class="white">
+<div class="mainleftdiv">
+<h2>Cookie Policy Details:</h2>
+
+<button onclick="fshow()">Click to view Cookie Policy</button><!-- When clicked, triggers the fshow function-->
+<button onclick="fhide()">Click to hide Cookie Policy</button><!-- When clicked, triggers the fhide function-->
+<p id="myparagraph"></p>
+
+<div class="footerdiv">
+		<p> Copyright Tech News 2020</p>
+		<br>
+	</div>
+
+
+
+
+
+
+</section> <!--Closes Section-->
+
+
+
+</div>
+
+</body>
+</html>

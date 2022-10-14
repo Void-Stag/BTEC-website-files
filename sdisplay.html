@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<script>
+function fhide() {
+	document.getElementById("myparagraph").style.display = "none";
+	document.getElementById("myparagraph").innerHTML = "disapper";
+	document.body.style.background = "white";
+}
+function fshow() {
+	document.getElementById("myparagraph").style.display = "block";
+	document.getElementById("myparagraph").style.color = "darkblue";
+	document.getElementById("myparagraph").style.fontSize = "20px";
+	document.getElementById("myparagraph").style.fontFamily = "Arial, sans-serif";
+	document.getElementById("myparagraph").style.textAlign = "center";
+
+	document.getElementById("myparagraph").innerHTML = "This paragraph has been modified <br> You can seeee me now!";
+	document.body.style.background = "lightgrey";
+}
+</script>
+<h1> Hiding & Showing </h1>
+<p> The paragraph below will appear or disappear.</p>
+<p> When you click the buttons Hide or Show.</p>
+<button type="button" onclick="fhide()">Hide Content</button>
+<button type="button" onclick="fshow()">Show Content</button>
+<p id="myparagraph">this paragraph appears or disappears</p>
+</body>
+</html>

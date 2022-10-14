@@ -1,0 +1,226 @@
+/*CSS*/
+section.white{
+	background-color: white;/*Changes the body background to white*/
+}
+div.center{
+	text-align: center;
+	float: center;
+}
+h1{
+	font-family: Calibri;
+	font-size: 35px;
+	font-weight: bold;
+	color: #0077b3;
+	text-align: center;
+}
+h2{
+	font-family: Calibri;/*Changes the type of font*/
+	font-size: 24px;/*Changes the size of the font*/
+	font-weight: normal;
+	font-style: italic;/*Changes the style of the font*/ 
+	color: Navy;/*Changes the colour of the text*/
+	text-align: left;/*Changes text alignment*/
+}
+p{
+	color: Navy;/*Changes the colour of the text*/
+	font-family: Calibri;/*Changes the type of font*/
+	font-size: 18px;
+}
+p.centerpar{
+	font-family: Calibri;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: bold;
+	background-color: white;
+	color: Navy;
+}
+h2.hcenter{
+	font-family: Calibri;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: italic;
+	color:Navy;
+	text-align: center;
+}
+/*NAVIGATION BAR*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 15%;
+}
+
+li {
+	float:left; /*Postion the bar left*/
+}
+
+li a {
+	padding: 15px; /*Change the space inbetween the words*/
+	background-color:none;
+	color: black; /*Change the color of the hyperlinks*/
+}
+
+a:hover {
+	background-color: #0077b3; /*Change the color of the link boxon hover event*/
+}
+
+a.active {
+	background-color: #b3e6ff;/*Change the background color for the active link*/
+	color: black;/*Change the color of the word in the active link*/
+}
+div.centerdiv{
+	background-color: #b3e6ff;
+	text-align:center;
+	width:60%;
+	margin: auto; /* Use this to center the div */
+}
+/*NAVIGATION BAR*/
+
+body {
+	margin: 0px;/*Eradicated the white outline which is visible around the light blue header*/
+}
+div.headerdiv{
+	background-color: #b3e6ff;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+/* MAIN DIVS*/
+div.mainbodydiv{
+	background-color: #b3e6ff;/*Changes background colour*/
+	margin-top: 0px;/*Changes the size of the top margin*/
+	padding-top: 0px;/*Changes the sie of the padding*/
+	width: 100%;
+	min-width: 300px;/*Changes the size of the min-width*/
+}
+/* DIVS*/
+/*MAIN LEF DIV*/
+div.mainleftdiv{
+	background-color: white;
+	text-align:left;
+	width: 50%;/*Changes the size of the width*/
+	min-width: 30%;
+	float:left;
+	height: auto;
+}
+/*FAR RIGHT DIV*/
+div.farrightdiv{
+	background-color: white;
+	font-size: 20px;
+	text-align:center;
+	width: 25%;
+	min-width: 300px;
+	height: auto;
+	float: right;
+	padding-top: 0px;
+}
+/*END OF DIVS*/
+
+
+/*FOOTER*/
+div.footerdiv{
+	display: inline-block;/*Changes where the  div is displayed*/
+	background-color: white;
+	text-align:center;
+	width: 100%;
+	min-width: 300px;
+	padding-top: 10px;
+	height: 70px;
+}
+/*FOOTER*/
+/*Responsive Menu*/
+.active{
+	border:1px solid #71ddd0;
+	color: black;
+}
+
+.topnav{
+	overflow: hidden;
+	padding-top: 1%;
+	padding-right: 5%;
+}
+
+.topnav a{
+	float: ;
+	position: inherit;
+	display: block, inline;
+	color: Navy;
+	text-align: center;
+	padding: 12px 12px;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Calibri;
+}
+
+.topnav a:hover{
+	background-color: ;
+	color: black;
+}
+
+.topnav .icon{
+	display: none;
+}
+
+@media screen and (max-width: 780px){
+	.topnav a:not(:first-child) {display: none;}
+	.topnav a.icon{
+		float: right;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 780px){
+	.topnav.responsive {position: relative;}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align:center;
+		}
+}
+
+/*Responsive Menu*/
+/*Product card*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);/*Details about the shadowing around the product card*/
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: Calibri;
+}
+
+.price {
+  color: grey;
+  font-size: 20px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;/*Keeps mouse cursor as a pointer when over button*/
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+/*Product card*/
+table {
+  font-family: Calibri;
+  border-collapse: collapse;/*No visible borders on the table*/
+  width: 100%;
+}
+
+td, th {
+  border: 1px;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color:;/*Sets background colour to transparent*/
+}

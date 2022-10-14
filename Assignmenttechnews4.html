@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>Tech News</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="stylesheettx.css"><!--Use to locate external CSS-->
+	<meta name="descryption" content="Information about software and hardware">
+	<meta name="keywords" content="Software, Hardware">
+	<meta name="author" content="Me">
+</head>
+<script>
+function ResFunction(){
+				/*Alternating between two classes*/
+	var x = document.getElementById("Topnav");
+	if(x.className === "topnav"){
+	x.className += "responsive";
+	}
+	else {
+		x.className = "topnav";
+		}
+}
+	function Cookies() {
+	alert("Warning, Cookies operate on this website");//Displays message when called
+}
+</script>
+<body onload= "Cookies()"><!-- Calls alertbox function-->
+<div class="mainbodydiv">
+	<div class="headerdiv"><!--Opens the navigation bar div-->
+		
+		<div class="centerdiv">
+			<h1>Contact</h1>
+		</div>
+		<div class="topnav" id="Topnav"><!-- Opens Div & Calls navigation bar function-->
+			<a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="ResFunction()">&#9776;</a>
+			<a href="Assignmenttechnews1.html">Home</a><!--Creates a hyperlink to another file-->
+			<a href="Assignmenttechnews2.html">Software</a><!--Creates a hyperlink to another file-->
+			<a href="Assignmenttechnews3.html">Hardware</a><!--Creates a hyperlink to another file-->
+			<a href="Assignmenttechnews4.html">Contact</a><!--Creates a hyperlink to another file-->
+			<a href="Assignmenttechnews5.html">Cookie Policy</a>
+		
+		</div>
+	</div>
+
+	<section class="white">
+	<div class="mainleftdiv">
+		<h2>Our Contact Details:</h2>
+		<br>
+		<p>Phone: 08543 84842 849204 for general enquiries<br>
+		*Note: Our lines are open from 7am till 11pm<br>
+		Outside of these times, we will be unable to assist over the phone, please use the other options instead.
+		<br>
+		General Enquiries:<br>
+		Email: TN@enquires.com<br>
+
+		<br>
+		<p> Find us on social media</p>
+		<a href ="https://twitter/DEGaming.com">Twitter</a><!--Assigns link to text-->
+		<br>
+		<a href ="https://Facebook/DEGaming.com">Facebook</a>
+		<br>
+		<br>
+		</p>
+
+		<h2>Location of our Headquarters</h2>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83439.44889900029!2d-122.91550253794514!3d49.1914005137426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d92e141ec0a5%3A0xb34618a557d7d04!2sBC-99A%2C+Surrey%2C+BC%2C+Canada!5e0!3m2!1sen!2suk!4v1557839677291!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+		<div class="footerdiv">
+			<p> Copyright Tech News 2020</p>
+			<br>
+		</div>
+	</section> <!--Closes Section-->
+</div>
+
+</body>
+</html>
